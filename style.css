@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.login_wrapper {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(./assets/background.jpg);
+    /* background: rgba(0,0,0,.75); */
+    max-width: 100%;
+    min-height: 100%;
+    display: block;
+    font-size: 15px;
+    /* position:absolute; */
+    /* z-index: inherit; */
+}
+.blur-effect{
+    background-color:rgba(0,0,0,.5);
+}
+
+.header {
+    height: 90px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, .5) 0, transparent);
+    width: 100%;
+    position: absolute;
+    height: 90px;
+
+}
+
+.pic1 {
+    display: inline-block;
+    max-width: 11.5%;
+    margin-top: 25px;
+    margin-left: 3%;
+}
+
+@media only screen and (min-width: 740px) {
+    .login-body:before {
+        content: " ";
+        display: block;
+        height: 90px;
+    }
+}
+
+.login-body {
+    display: block;
+    background-color: transparent;
+    margin: 0 auto 0;
+    max-width: 595px;
+    min-height: 100vh;
+    padding: 0 5%;
+    color: #333;
+    margin-bottom:  100px; ;
+}
+.login-form-main, .form-content{
+    flex-grow: 1;
+}
+
+.login-content {
+
+    background-color: rgba(0, 0, 0, .75);
+    border-radius: 4px;
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 515px;
+    padding: 60px 68px 40px;
+    width: 100%;
+    size: 314px 516px;
+    flex
+}
+
+.login-form-title {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+h1 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+.form-content .login-form{
+    padding-bottom: 16px;
+
+
+}
+
+/* .user-name{
+    background: #333;
+} */
+.user-id{
+
+        border: 1px solid #8c8c8c00;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background-color: #333;
+        display: block;
+        font-size: 16px;
+        height: 50px;
+        padding: 0px 20px 0;
+        width: 100%;
+        color: #fff;
+    }
+
+.Sign-in-button{
+    background-color: #e50914;
+    border: 1px solid #e50914;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 24px 0 12px;
+    width: 100%;
+    padding: 13px;
+}
+.login-form-help{
+    display: flex;
+    flex-direction: row;
+    color: #b3b3b3;
+    flex-grow: 1;
+    margin-bottom: 67px;
+    font-size: 13px;
+}
+.help-checkbox{
+   border: 1px solid white;
+}
+.help-remember-me{
+    margin-right: 133px;
+}
+.help-remember-text{
+    line-height: 1.2;
+}
+
+
+.login-form-other .sign-up a:link {
+    color: #fff;
+
+
+}
+.login-form-other{
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+/* a.signup:link{
+    color: #fff;
+} */
+
+.sign-up{
+    color: #737373;
+}
+
+.anchor{
+    color: #fff;
+    text-decoration: none;
+}
+.terms-of-use-Learn-more
+{
+    color: #0071eb;
+    text-decoration: none;
+}
+/* a:hover {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:active {
+color: yellow;
+background-color: transparent;
+text-decoration: underline;
+} */
+/* a:{ */
+    /* background-color: transparent;
+
+} */
+/* .login-form-other .signup a{
+color: #fff;
+} */
+
+
+.login-form-other .signup a{
+color: #fff;
+}
+.terms-of-use{
+    color: #8c8c8c;
+    font-size: 13px;
+    margin-top: 14px;
+    margin-bottom: 100px;
+}
+.footer{
+    /* display: flex; */
+    /* flex-direction: column; */
+    background-color: rgba(0,0,0,.75);
+    max-height: 100%;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+}
+
+.footer-body{
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #737373;
+    padding: 35px 0;
+    font-family:     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;;
+}
+.footer-question-number{
+    margin: 0 0 30px;
+    position: left;
+    font-size: 1em;
+}
+.Nav-links{
+    margin-top: 10px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: -40px;
+    margin-bottom: 70px;
+
+}
+.footer-nav-items {
+    font-size: 13px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 16px;
+    min-width: 100px;
+    padding: 0 12px 0 0;
+    vertical-align: top;
+    width: 24%;
